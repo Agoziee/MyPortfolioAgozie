@@ -1,0 +1,179 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<!-- CURTAIN -->
+<div class="main__curtain">
+    <div class="curtain">
+        <p class="curtain__text1">Hello my name is</p>
+        <h1 class="curtain__text2">Agozirim Emeh</h1>
+        <h2 class="curtain__text3">I am a software developer</h2>
+    </div>
+</div>
+
+<!-- PRESENTATION -->
+<div class="presentation" id="aboutMe">
+    <div class="presentation__container">
+        <div class="presentation__title">
+            <h2 class="presentation__title--text">About me</h2>
+        </div>
+        <div class="presentation__description">
+            <p class="presentation__description--text">Hey, welcome to my page. My name is Agozie; I'm a software developer and I love programming in C# and python.</p>
+            <p class="presentation__description--text">On this page, I show some projects I built which helped my learning process. I enjoy building software applications that address real world problems. I'm always looking to deepen my technical knowledge, learn new ways of writing code, and hone my ability to develop better and more efficient software. </p>
+        </div>  
+        <div class="presentation__info">
+            <ul class="presentation__info__list">
+                <li class="list__item list__item1"><span class="list__item--span">Name: </span>Agozirim Emeh</li>
+                <li class="list__item list__item2"><span class="list__item--span">Location: </span>Berlin, Germany</li>
+                <li class="list__item list__item3"><span class="list__item--span">Email: </span>agozemeh@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- STACK -->
+<div class="stack" id="stack">
+    <div class="stack__container">
+        <!-- Title -->
+        <div class="stack__title">
+            <h2 class="stack__title--text">Stack</h2>
+        </div>
+        <!-- Cards -->
+        <div class="stack__cards">
+            <!-- Card 1 -->
+            <div class="stack__cards__card stack__card1">
+                <img class="stack__cards__image stack__image--csharp" src="./images/csharp.png" alt="csharp">
+                <h2 class="stack__cards__title stack__card--title1">C# Development</h2>
+                <p class="stack__cards__text stack__card--text1">I use and instruct myself daily programming in C #. I apply object-oriented programming with design patterns in mind.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="stack__cards__card stack__card2">
+                <img class="stack__cards__image stack__image--aspnet" src="./images/aspnet.jpeg" alt="aspnet">
+                <h2 class="stack__cards__title stack__card--title2">Full Stack Web Development</h2>
+                <p class="stack__cards__text stack__card--text2">I use design patterns and frameworks to build webapps. ASP.net and MVC are technologies that I constantly dig into.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="stack__cards__card stack__card3">
+                <img class="stack__cards__image stack__image--front" src="./images/front.png" alt="front">
+                <h2 class="stack__cards__title stack__card--title3">Front End Development</h2>
+                <p class="stack__cards__text stack__card--text1">I use HTML, CSS and Javascript to build webapps with responsive frontends and attractive components.</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="stack__cards__card stack__card4">
+                <img class="stack__cards__image stack__image--sql" src="./images/sql.png" alt="sql">
+                <h2 class="stack__cards__title stack__card--title4">Database Development</h2>
+                <p class="stack__cards__text stack__card--text4">Data is a crucial aspect of any project. I have knowledge in SQL development from the use of queries to the design.</p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="stack__cards__card stack__card5">
+                <img class="stack__cards__image stack__image--git" src="./images/git.png" alt="git">
+                <h2 class="stack__cards__title stack__card--title5">Git</h2>
+                <p class="stack__cards__text stack__card--text5">Using Git to control code versions is key to the order and stability of any project.</p>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="stack__cards__card stack__card6">
+                <img class="stack__cards__image stack__image--vs" src="./images/vs.png" alt="vs">
+                <h2 class="stack__cards__title stack__card--title6">Visual Studio 2019</h2>
+                <p class="stack__cards__text stack__card--text6">I write my codes in both the Visual Studio 2019 IDE and the Visual Studio Code code editor.</p>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="stack__cards__card stack__card7">
+                <img class="stack__cards__image stack__image--vs" src="./images/python.png" alt="python">
+                <h2 class="stack__cards__title stack__card--title7">Python Development</h2>
+                <p class="stack__cards__text stack__card--text7">I have experience developing software using the pyhon programming language. I apply best practices and try my best to develop high quality code that is easy to read and maintain.</p>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="stack__cards__card stack__card8">
+                <img class="stack__cards__image stack__image--vs" src="./images/django.png" alt="django">
+                <h2 class="stack__cards__title stack__card--title8">Django Web Development</h2>
+                <p class="stack__cards__text stack__card--text8">I use the django web framework and REST framework to build webapps that support RESTful services.</p>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- PROJECTS -->
+<div class="projects" id="projects">
+    <div class="projects__container">
+        <!-- Title -->
+        <div class="projects__title">
+            <h2 class="projects__title--text">Projects</h2>
+        </div>
+
+        <!-- Cards -->
+        <div class="projects__cards">
+            <!-- Humans vs Aliens -->
+            <div class="projects__cards__card projects__card1">
+                <h2 class="projects__card__text project__card__text3">Human vs Aliens</h2>
+                <a href="https://humansvsaliens.netlify.app/" target="_blank"><i class="icon fas fa-external-link-alt" id="icon__human--link"></i></a>
+                <a href="https://github.com/turavinin/rock-paper-scissors" target="_blank"><i class="icon fab fa-github" id="icon__human--git"></i></a>
+            </div>
+
+            <!-- Etch a Sketch -->
+            <div class="projects__cards__card projects__card2">
+                <h2 class="projects__card__text project__card__text3">Etch-a-Sketch</h2>
+                <a href="https://turavinin.github.io/etch-a-sketch/" target="_blank"><i class="icon fas fa-external-link-alt" id="icon__human--link"></i></a>
+                <a href="https://github.com/turavinin/etch-a-sketch" target="_blank"><i class="icon fab fa-github" id="icon__human--git"></i></a>
+            </div>
+
+            <!-- Landing page -->
+            <div class="projects__cards__card projects__card3">
+                <h2 class="projects__card__text project__card__text3">Landing Page</h2>
+                <a href="https://turavinin.github.io/product-landing-page/" target="_blank"><i class="icon fas fa-external-link-alt" id="icon__human--link"></i></a>
+                <a href="https://github.com/turavinin/product-landing-page" target="_blank"><i class="icon fab fa-github" id="icon__human--git"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CONTACT -->
+<div class="contact" id="contact">
+    <div class="contact__container">
+        <!-- Title -->
+        <div class="contact__title">
+            <h2 class="contact__title--text">Let's talk</h2>
+        </div>
+        <!-- Message -->
+        <div class="contact__message">
+            <p class="contact__message--text">
+                I am currently available to fill an internship position. Let's get in touch and talk about how I might fit into your project. My inbox is always open. Whether you have a question or just want to say hi, I'll get back to you in no time!
+            </p>
+        </div>
+        <!-- General Icons -->
+        <div class="contact__general__icons">
+            <!-- Map -->
+            <div class="general__icons--map">
+                <i class="fas fa-map-marked-alt" id="general__icon"></i>
+                <p class="icons--general--text">Berlin, Germany</p>
+            </div>
+            <!-- Telephone -->
+            <div class="general__icons--telephone">
+                <i class="fas fa-mobile-alt" id="general__icon"></i>
+                <p class="icons--general--text">(+49) 176 22544896</p>
+            </div>
+            <!-- Email -->
+            <div class="general__icons--email">
+                <i class="fas fa-envelope" id="general__icon"></i>
+                <p class="icons--general--text">agozemeh@gmail.com</p>
+            </div>
+        <!-- Networking Icons -->
+            <div class="contact__networking__icons">
+                <a href="https://www.linkedin.com/in/agozirim-emeh-962241163/" target="_blank"><i class="fab fa-linkedin" id="networking__icon"></i></a>
+                <a href="https://github.com/Agoziee" target="_blank"><i class="fab fa-github" id="networking__icon"></i></a>
+                <!--<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" id="networking__icon"></i></a>-->
+            </div>
+        </div>
+    </div>
+</div>
